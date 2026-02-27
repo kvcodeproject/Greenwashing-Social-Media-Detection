@@ -1,5 +1,7 @@
 # Greenwashing Social Media Detection
 
+Dr.Wenli HUANG - Principal Investigator
+
 ## Project Overview
 This project aims to develop a framework for detecting greenwashing in social media content. Greenwashing is the practice of misleading consumers about environmental efforts of a company or organization. As more consumers are concerned about climate change and sustainability, it is crucial to identify when companies misrepresent their environmental actions.
 
