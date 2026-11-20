@@ -1,0 +1,64 @@
+Sustainability Greenwashing Detection on Social Media
+Principal Investigator DR. Wenli HUANG
+
+Overview
+This project investigates the role of social media platforms in the phenomenon of greenwashing — the practice of making misleading or unsubstantiated claims about the environmental benefits of a product, service, or company.
+
+Core Research Question
+Does social media, as a platform, enhance (amplify and enable) or discourage (expose and reduce) greenwashing practices?
+
+The study combines computational detection of greenwashing signals with sentiment analysis of both original posts and user comments to assess how platform dynamics shape corporate sustainability communication and public response.
+
+Research Objectives
+Detect linguistic and rhetorical markers of greenwashing in sustainability-related social media content.
+Analyse the sentiment of primary posts that contain sustainability or environmental claims.
+Examine the sentiment of public comments/replies to those posts to understand audience reception, scepticism, or endorsement.
+Evaluate whether social media mechanisms (virality, user scrutiny, algorithmic amplification) tend to increase the visibility and acceptance of greenwashing or, conversely, facilitate its detection and criticism.
+Key Concepts & Keywords
+Core Keywords
+Greenwashing
+Sustainability claims
+Corporate environmental communication
+ESG (Environmental, Social, Governance) messaging
+Social media discourse
+Green claims detection
+Authenticity vs. performative sustainability
+Detection-Related Keywords
+Vague / unsubstantiated claims (“eco-friendly”, “green”, “sustainable”, “carbon-neutral”, “planet-positive”)
+Selective disclosure
+Symbolic actions without measurable impact
+Third-party certification misuse
+Comparative greening (“greener than…”)
+Future-oriented promises without current evidence
+Platform & Interaction Keywords
+Virality of green claims
+User-generated scrutiny
+Comment-section accountability
+Hashtag activism (#greenwashing, #sustainability, #ecofriendly)
+Influencer & brand partnerships
+Algorithmic amplification of environmental content
+Methodology Snapshot
+1. Data Collection
+Public posts from major social media platforms containing sustainability-related language.
+Associated comment threads for reciprocal sentiment analysis.
+2. Greenwashing Signal Detection
+Keyword and phrase matching against curated greenwashing lexicons.
+Contextual feature extraction (hedging language, absence of quantifiable metrics, appeal to emotion over evidence).
+Classification of posts into categories: credible sustainability communication vs. potential greenwashing.
+3. Sentiment Analysis
+Post Sentiment: Overall polarity and emotional tone of the original sustainability claim (positive framing, urgency, pride, etc.).
+Comment Sentiment: Aggregate and distributional sentiment of user replies, with particular attention to:
+Scepticism / accusation of greenwashing
+Support / endorsement
+Neutral information-seeking
+Irony or sarcasm
+4. Platform Effect Analysis
+Correlation between detected greenwashing signals and engagement metrics.
+Comparison of comment sentiment polarity when greenwashing markers are present versus absent.
+Temporal and network patterns that indicate amplification or pushback.
+Expected Contributions
+Empirical evidence on whether social media primarily functions as an enabler (broad reach, low verification costs, positive framing incentives) or a deterrent (collective scrutiny, rapid call-outs, reputational risk) of greenwashing.
+A reusable detection pipeline combining keyword-based signals and dual-level (post + comment) sentiment analysis.
+Insights for regulators, platforms, brands, and civil-society actors on the dynamics of environmental claim credibility online.
+References
+https://huggingface.co/ESGBERT
